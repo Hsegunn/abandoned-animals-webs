@@ -1,25 +1,61 @@
-body {
-  padding-top: 20px;
+.navbar-nav .nav-link { 
+  font-size: 18px;
 }
 
-.btn-custom {
-  background-color: #FFCC66;
+.container {
+  max-width: 800px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control, .btn {
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+
+.btn-primary:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+.btn-fqa {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
   color: white;
 }
 
-.btn-custom:hover {
-  background-color: #FFBB33;
+.btn-fqa:hover {
+  background-color: #ec971f;
+  border-color: #d58512;
 }
 
-nav a {
-  font-size: 1.2rem;
+.btn-inquiry {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+  color: white;
 }
 
-form {
-  max-width: 600px;
-  margin: 0 auto;
+.btn-inquiry:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
 }
 
-textarea {
-  resize: none;
+.gray-box {
+  width: 50%;
+  height: 300px;
+  background-color: #dcdcdc;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
