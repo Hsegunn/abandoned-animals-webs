@@ -1,38 +1,25 @@
+body {
+  padding-top: 20px;
+}
 
+.btn-custom {
+  background-color: #FFCC66;
+  color: white;
+}
 
-#header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-  }
-  
-  .active{
-    background-color: white;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    
-    -webkit-transition-duration:0.4s;
-    -webkit-transition-timing-function:ease;
-  }
-  
-  .deactive{
-    
-    background-color: transparent;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    
-    -webkit-transition-duration:0.4s;
-    -webkit-transition-timing-function:ease;
-  }
-  nav,
-  .icons {
-    padding: 20px;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    padding: 0 10px;
-  }
+.btn-custom:hover {
+  background-color: #FFBB33;
+}
+
+nav a {
+  font-size: 1.2rem;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+textarea {
+  resize: none;
+}
