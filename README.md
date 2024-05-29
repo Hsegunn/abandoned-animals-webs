@@ -86,6 +86,10 @@
 
 ![카테고리코드수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image15.png)
 
-- 카테고리창에 화살표 기호 추가
+- css파일에 화살표기호 추가 코드작성
 
 ![카테고리코드수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image16.png)
+
+- 추가 완료
+
+![카테고리코드수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image17.png)
