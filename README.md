@@ -93,3 +93,24 @@
 - 추가 완료
 
 ![카테고리코드수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image17.png)
+
+
+### 봉사신청폼 만들기
+#### 이름 , 생년월일, 전화번호, 이메일, 내용작성, 확인버튼 구현
+
+##### 이름, 생년월일 입력창 구현
+
+- 레이블과 인풋을 label for로 연결
+- 부트스트랩의 form-control 클래스로, 입력 필드와 선택 상자에 기본 스타일을 적용
+
+![이름생년월일코드](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image18.png)
+
+- placeholder를 이용하여 작성예시 출력
+
+![이름생년월일](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image19.png)
+
+##### 전화번호, 이메일, 내용작성, 확인버튼 구현
+
+- QnA페이지와 거의 동일하게 기본구조작성
+
+![기본구조](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image20.png)
