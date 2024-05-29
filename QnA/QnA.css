@@ -5,19 +5,34 @@
 .form-group {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
 
 .form-label {
   width: 70px;
   margin-right: 5px;
   text-align: left;
+  display: flex;
+  align-items: center;
 }
 
-.form-control {
-  border-radius: 0;
+.form-control,.form-select {
+  border-radius: 10px;
   flex: 1;
   margin-right: 5px;
+}
+
+.custom-select {
+  position: relative;
+}
+
+.custom-select::after {
+  content: '\25BC'; /* 화살표 문자 */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
 
 .btn-primary {
@@ -35,11 +50,13 @@
   justify-content: center;
   margin-top: 20px;
 }
+
 .btn_commit {
   width: 100px;
   border-radius: 10px;
   margin-right: 50px;
 }
+
 .btn_cancel {
   border-color: #5297ac;
   color: #5297ac;
@@ -49,3 +66,9 @@
   margin-right: 50px;
 }
 
+#author::placeholder,
+#phone::placeholder,
+#email::placeholder {
+  color: rgb(201, 205, 211);
+  font-style: italic;
+}

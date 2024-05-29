@@ -78,3 +78,14 @@
 - 버튼호버를 이용하여 커서를 올리면 색이 바뀜
 
 ![내용입력코드](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image14.gif)
+
+##### 수정
+
+- placeholoer 폰트 변경: #(id)::-webkit-input-placeholder를 이용하여 폰트와 색상변경
+- select 클래스에 custom-select 사용자 정의 클래스 선언, CSS에서 추가적인 스타일을 정의
+
+![카테고리코드수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image15.png)
+
+- 카테고리창에 화살표 기호 추가
+
+![카테고리코드수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image16.png)

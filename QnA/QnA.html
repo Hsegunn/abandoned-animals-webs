@@ -13,26 +13,23 @@
         <!-- 메인폼 -->
         <form>
             <!-- 제목 -->
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label for="title" class="form-label">제목</label>
                 <!-- 부트스트랩 form-control으로 텍스트박스 디자인설정 placeholder로 안내문 출력 -->
-                <input type="text" class="form-control" id="title" placeholder="예시: 강아지 입양조건 문의드려요">
+                <input type="text" class="form-control" id="title">
             </div>
             <!-- 작성자 및 카테고리 -->
-            <div class="form-group">
-                <!-- 작성자 -->
-                <label for="author" class="form-label">작성자</label>
-                <input type="text" class="form-control" id="author" placeholder="홍길동">
-                <!-- 카테고리 -->
-                <!-- 카테고리 정렬이 애매해서 style로 개별조정 -->
-                <label for="category" class="form-label" style="margin-left: 10px;">카테고리</label>
-                <select class="form-control" id="category" >
-                    <option>문의</option>
-                    <option>제보</option>
-                </select>
-            </div>
+                <div class="form-group mb-3">
+                    <label for="author" class="form-label">작성자</label>
+                    <input type="text" class="form-control" id="author" placeholder="홍길동">
+                    <label for="category" class="form-label ms-3">카테고리</label>
+                    <select class="form-select custom-select" id="category">
+                        <option>문의</option>
+                        <option>제보</option>
+                    </select>
+                </div>
             <!-- 전화번호 및 이메일 -->
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <!-- 전화번호 -->
                 <label for="phone" class="form-label">전화번호</label>
                 <input type="tel" class="form-control" id="phone" placeholder="010-1234-1234">
@@ -41,12 +38,12 @@
                 <input type="email" class="form-control" id="email" placeholder="example@example.com">
             </div>
             <!-- 첨부파일 업로드 -->
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label for="file" class="form-label">첨부파일</label>
                 <input type="file" class="form-control" id="file">
             </div>
             <!-- 내용 입력 -->
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label for="content" class="form-label">내용</label>
                 <textarea class="form-control" id="content" rows="10"></textarea>
             </div>
