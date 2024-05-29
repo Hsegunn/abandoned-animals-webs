@@ -1,61 +1,51 @@
-.navbar-nav .nav-link { 
-  font-size: 18px;
-}
-
 .container {
   max-width: 800px;
 }
 
 .form-group {
-  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .form-label {
-  font-weight: bold;
+  width: 70px;
+  margin-right: 5px;
+  text-align: left;
 }
 
-.form-control, .btn {
+.form-control {
   border-radius: 0;
+  flex: 1;
+  margin-right: 5px;
 }
 
 .btn-primary {
-  background-color: #5bc0de;
-  border-color: #5bc0de;
+  background-color: #5297ac;
+  border-color: #5297ac;
 }
 
 .btn-primary:hover {
   background-color: #31b0d5;
-  border-color: #269abc;
+  border-color: #31b0d5;
 }
 
-.btn-fqa {
-  background-color: #f0ad4e;
-  border-color: #f0ad4e;
-  color: white;
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn_commit {
+  width: 100px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+.btn_cancel {
+  border-color: #5297ac;
+  color: #5297ac;
+  background-color: white;
+  width: 100px;
+  border-radius: 10px;
+  margin-right: 50px;
 }
 
-.btn-fqa:hover {
-  background-color: #ec971f;
-  border-color: #d58512;
-}
-
-.btn-inquiry {
-  background-color: #5bc0de;
-  border-color: #5bc0de;
-  color: white;
-}
-
-.btn-inquiry:hover {
-  background-color: #31b0d5;
-  border-color: #269abc;
-}
-
-.gray-box {
-  width: 50%;
-  height: 300px;
-  background-color: #dcdcdc;
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-}
