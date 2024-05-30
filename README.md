@@ -111,19 +111,19 @@
 
 ##### 전화번호, 이메일, 내용작성, 확인버튼 구현
 
-- QnA페이지와 거의 동일하게 기본구조작성
+- QnA페이지와 구조가 거의 동일하기 때문에 QnA페이지의 코드를 이용하여 기본구조작성
 
 ![기본구조](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image20.png)
 
 ##### 수정
 
 - <div class="form-container">태그를 추가하고 css파일에 border를 추가
-- border-radius로 모서리부분을 좀더 둥글게 수정
+- border-radius로 모서리부분을 둥글게 수정
 
 ![테두리추가](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image21.png)
 
 - font-weight로 폰트 굵기 수정
-- 아이디 레이블 배경색을 추가하고 레이블 테두리 삭제
+- 아이디 레이블에 배경색을 추가하고 레이블 테두리 삭제
 
 ![굵기수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image22.png)
 
