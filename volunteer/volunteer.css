@@ -1,63 +1,59 @@
-body {
-  background-color: #f8f9fa;
-}
-
 .container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 800px;
 }
 
 .form-container {
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
   padding: 20px;
-  background-color: #ffffff;
-}
-
-.title {
-  text-align: left;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.form-title {
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .form-group {
-  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; 
 }
 
 .form-label {
+  width: 70px;
+  margin-right: 5px;
   text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 .form-control {
   border-radius: 10px;
+  flex: 1;
+  margin-right: 5px;
 }
 
-textarea.form-control {
-  height: 150px; /* 이미지 크기에 맞게 조정 */
+.btn-primary {
+  background-color: #5297ac;
+  border-color: #5297ac;
 }
 
-.btn_commit {
-  background-color: #FFDD57; 
-  border: none;
-  color: black;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-size: 16px;
-  width: 80px;
-  margin: 0 auto;
-  display: block;
+.btn-primary:hover {
+  background-color: #31b0d5;
+  border-color: #31b0d5;
 }
 
 .btn-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
+}
+
+.btn_commit {
+  width: 100px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+
+#birth::placeholder,
+#phone::placeholder,
+#email::placeholder {
+  color: rgb(201, 205, 211);
+  font-style: italic;
 }
