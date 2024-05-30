@@ -16,17 +16,18 @@
   align-items: center;
 }
 
-.form-control,.form-select {
+.form-control,
+.form-select {
   border-radius: 10px;
   flex: 1;
   margin-right: 5px;
 }
 
-.custom-select {
+.custom {
   position: relative;
 }
 
-.custom-select::after {
+.custom::after {
   content: '\25BC'; /* 화살표 문자 */
   position: absolute;
   right: 10px;
