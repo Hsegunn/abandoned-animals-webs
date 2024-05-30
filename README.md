@@ -1,6 +1,6 @@
 ## 유기동물 입양사이트 프로젝트
 
-### 문의제보 - QnA폼 만들기
+### [문의제보 - QnA폼 만들기](https://github.com/Hsegunn/abandoned-animals-webs/tree/main/QnA)
 #### 제목 , 작성자, 카테고리, 전화번호, 이메일, 첨부파일, 내용작성, 등록 및 취소버튼 구현
 
 ##### 제목 입력창 구현
@@ -95,7 +95,7 @@
 ![카테고리코드수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image17.png)
 
 
-### 봉사신청폼 만들기
+### [봉사신청폼 만들기](https://github.com/Hsegunn/abandoned-animals-webs/tree/main/volunteer)
 #### 이름 , 생년월일, 전화번호, 이메일, 내용작성, 확인버튼 구현
 
 ##### 이름, 생년월일 입력창 구현(QnA페이지와 동일)
