@@ -1,11 +1,12 @@
 .container {
-  max-width: 800px;
+  max-width: 900px;
+  max-height: 900px;
 }
 
 .form-container {
   border: 1px solid #ccc;
   border-radius: 25px;
-  padding: 20px;
+  padding: 70px;
 }
 
 .form-group {
@@ -15,7 +16,9 @@
 }
 
 .form-label {
-  width: 70px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 80px;
   margin-right: 5px;
   text-align: left;
   display: flex;
@@ -29,13 +32,13 @@
 }
 
 .btn-primary {
-  background-color: #5297ac;
-  border-color: #5297ac;
+  background-color: #FDC456;
+  border-color: #FDC456;
 }
 
 .btn-primary:hover {
-  background-color: #31b0d5;
-  border-color: #31b0d5;
+  background-color: rgb(250, 177, 32);
+  border-color: rgb(250, 177, 32);
 }
 
 .btn-container {
@@ -51,9 +54,16 @@
 }
 
 
+
 #birth::placeholder,
 #phone::placeholder,
 #email::placeholder {
   color: rgb(201, 205, 211);
   font-style: italic;
+}
+
+#name,#birth,#phone,#email,#content {
+  background-color: #FAFAFA;
+  border-radius: 0px;
+  border: 0;
 }

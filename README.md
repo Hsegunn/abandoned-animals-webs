@@ -114,3 +114,21 @@
 - QnA페이지와 거의 동일하게 기본구조작성
 
 ![기본구조](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image20.png)
+
+##### 수정
+
+- <div class="form-container">태그를 추가하고 css파일에 border를 추가
+- border-radius로 모서리부분을 좀더 둥글게 수정
+
+![테두리추가](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image21.png)
+
+- font-weight로 폰트 굵기 수정
+- 아이디 레이블 배경색을 추가하고 레이블 테두리 삭제
+
+![굵기수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image22.png)
+
+- 이름과 생년월일 레이블의 크기가 살짝다른 부분 확인, 이메일 레이블에 있는 margin-left 때문에 크기가 다름
+- 생년월일 레이블에 style="margin-left: 10px;" 추가하여 크기조정
+- form-container의 padding을 조정하고 container의 max크기를 조절하여 전체적인 레이아웃 조정
+
+![굵기수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image23.png)
