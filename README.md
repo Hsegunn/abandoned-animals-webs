@@ -147,3 +147,9 @@
 - form-container의 padding을 조정하고 container의 max크기를 조절하여 전체적인 레이아웃 조정
 
 ![굵기수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image23.png)
+
+### QnA 페이지 합치기
+
+#### 팀프로젝트로 진행한 분량 합치기
+
+#####
