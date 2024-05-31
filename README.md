@@ -94,6 +94,21 @@
 
 ![카테고리코드수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image17.png)
 
+##### QnA폼 모달창만들기
+
+##### 등록버튼을 클릭하면 모달창이 출력되도록 기능추가
+
+- 부트스트랩을 이용하여 버튼을 누르면 모달창이 나오는 코드를 <div class="btn-container">태그안에 입력
+
+![모달](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image24.png)
+
+- 부트스트랩 모달헤드, 풋터 <div>태그를 삭제해서 영역이 나뉘는 줄 제거
+- 경고문과 서브 경고문을 작성(서브 경고문은 "등록"부분에 강조 색상을 넣음) 그리고 font-weight로 굵기조절
+- 이미지 삽입 style로 크기 및 위치조절 
+- 모달버튼에 style로 따로 크기조절, css파일에서 flex영역으로 설정해서 버튼 위치조절 
+
+![모달수정](https://raw.githubusercontent.com/Hsegunn/abandoned-animals-webs/main/img/image25.gif)
+
 
 ### [봉사신청폼 만들기](https://github.com/Hsegunn/abandoned-animals-webs/tree/main/volunteer)
 #### 이름 , 생년월일, 전화번호, 이메일, 내용작성, 확인버튼 구현

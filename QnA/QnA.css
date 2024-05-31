@@ -52,11 +52,11 @@
   margin-top: 20px;
 }
 
-.btn_commit {
+/* .btn {
   width: 100px;
   border-radius: 10px;
   margin-right: 50px;
-}
+} */
 
 .btn_cancel {
   border-color: #5297ac;
@@ -72,4 +72,33 @@
 #email::placeholder {
   color: rgb(201, 205, 211);
   font-style: italic;
+}
+
+.modal-body{
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+}
+
+.modal-subBody{
+  color: #b9b8b8;
+  font-size: 15px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.modalFooter{
+  margin: 20px;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+}
+.btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+  width: 100px; 
+  border-radius: 10px;
 }
