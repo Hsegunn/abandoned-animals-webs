@@ -1,14 +1,16 @@
 @import url(reset.css);
 
+/* 패딩수정 */
 .bar-style {
     background-color: #ECECEC;
     height:35px;
-    padding:0 35px;
+    padding:0 15%;
 }
 
 .bar-style select{
+    background-color: #ECECEC;
     height:100%;
-    width:120px;
+    width:12%;
     padding:0 10px;
 }
 .bar-style i{
