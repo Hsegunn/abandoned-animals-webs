@@ -1,0 +1,26 @@
+.Notice-Table-Container{
+    width: 70%;
+    margin: 30px auto;
+
+}
+.num-width{
+    width: 66px !important;
+}
+.th-border{
+    border-bottom: 2px solid #000 !important;
+border-top: 2px solid #000 !important;
+}
+ 
+/* pagination 부트스트랩 수정 */
+.nav-center{
+    margin: auto
+}
+.page-link{
+    color: #000 !important;
+}
+.page-link:hover{
+    color: #000 !important;
+}
+.pagination {
+    --bs-pagination-border-width: none !important;
+}
