@@ -46,7 +46,7 @@
   width: 70%;
   height: 400px;
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 
 }
 .TB-text{
@@ -56,11 +56,13 @@ margin-top: 120px;
 padding-left: 60px;
   }
 .TB-image{
+  /* display: flex;
+  justify-content: center; */
   flex: 0 0 auto;
-width: 60%; 
-background-color: #1b6683;
-overflow: hidden;
-object-fit: cover;
+  width: 60%; 
+  background-color: #1b6683;
+  overflow: hidden;
+  object-fit: cover;
 
 }
 .TB-text-btn{
@@ -70,10 +72,13 @@ justify-content: flex-start;
 }
 
 .FAQ-btn{
+  border-color: #5297AC;
   background-color:#5297AC;
+  color: #fff;
   margin-right: .5rem !important;
 }
 .FAQ-btn:hover{
+  border-color: #5297AC;
   color: #fff;
   background-color: #325f6c;
 }
@@ -83,6 +88,7 @@ justify-content: flex-start;
 }
 
 .Question-btn{
+  color: white;
   background-color: #FDC456;
 }
 .Question-btn:hover{
