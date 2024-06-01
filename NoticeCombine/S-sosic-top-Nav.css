@@ -1,0 +1,17 @@
+@import url(reset.css);
+
+.bar-style {
+    background-color: #ECECEC;
+    height:35px;
+    padding:0 35px;
+}
+
+.bar-style select{
+    height:100%;
+    width:120px;
+    padding:0 10px;
+}
+.bar-style i{
+    font-size:22px;
+    padding-right:6px;
+}

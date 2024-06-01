@@ -4,99 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="M-Notice.css">
+    <link rel="stylesheet" href="C-Fixed-Main.css">
+    <link rel="stylesheet" href="S-sosic-top-Nav.css">
     <script
       src="https://kit.fontawesome.com/9456e6a257.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     
-    <title>Document</title>
+    <title>공지사항</title>
 </head>
 <body>
-    <!-- 지워질 부분 -->
-    <div>
-        <h1>공지사항</h1>
-    </div>
+  <!-- 헤더 -->
+  <header>
+    <div class="nav">          
+      <div class="logo">
+        로고
+      </div>
+      <div class="nav-status">
+        <a href="#">
+          <span class="nav_name">소개</span>
+        </a>
+        <a href="#">
+          <span class="nav_name">입양하기</span>
+        </a>
+        <a href="#">
+          <span class="nav_name">입양후기</span>
+        </a>
+        <a href="#">
+          <span class="nav_name">문의제보</span>
+        </a>
+        <a href="#">
+          <span class="nav_name">소식</span>
+        </a>
+      </div>
+    </div> 
+  </header>
+  <!-- 헤더 끝 -->
+  <!-- 공지 배너 -->
+  <div class="bar-style">
+    <i class="fa-solid fa-house"></i>
+    <select>
+        <option>공지사항</option>
+        <option>홍보</option>
+        <option>봉사신청</option>
+        <option>교육영상</option>
+    </select>
+  </div>
+  <!-- 공지 배너 끝 -->
+  <!-- 공지사항 테이블 보드 -->
+  <div class="Notice-Table-Container">
+    <h1>공지사항</h1>
+    <table class="table">
+      <thead>
+        <tr  class="th-border">
+          <th scope="col num-width">번호</th>
+          <th scope="col">제목</th>
+          <th scope="col">등록일</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>3</td>
+          <td>부산 금정구 유기견 봉사이벤트</td>
+          <td>2024.05.24</td>
+        </tr>
+        <tr>
+          <td>200</td>
+          <td>유기견 봉사자 모집</td>
+          <td>2024.01.23</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>후원자 명단</td>
+          <td>2024.3.30</td>
+        </tr>
+          <tr>
+            <td>1</td>
+            <td>후원자 명단</td>
+            <td>2024.3.30</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>후원자 명단</td>
+            <td>2024.3.30</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>후원자 명단</td>
+            <td>2024.3.30</td>
+          </tr>
+      </tbody>
+    </table>
 
-    <!-- 공지사항 테이블 보드 -->
-    <div class="Notice-Table-Container">
-        <table class="table">
-            <thead>
-              <tr  class="th-border">
-                <th scope="col num-width">번호</th>
-                <th scope="col">제목</th>
-                <th scope="col">등록일</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>3</td>
-                <td>부산 금정구 유기견 봉사이벤트</td>
-                <td>2024.05.24</td>
-              </tr>
-              <tr>
-                <td>200</td>
-                <td>유기견 봉사자 모집</td>
-                <td>2024.01.23</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>후원자 명단</td>
-                <td>2024.3.30</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>후원자 명단</td>
-                <td>2024.3.30</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>후원자 명단</td>
-                <td>2024.3.30</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>후원자 명단</td>
-                <td>2024.3.30</td>
-              </tr>
-            </tbody>
-          </table>
-
-        <div class="pagination">
-            <nav class="nav-center">
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                      <span aria-hidden="true">&laquo;</span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-        </div>
+    <div class="pagination">
+      <nav class="nav-center">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    
+  </div>
+  <!-- 풋터 -->
+  <footer>
+    <div class="tail">
     </div>
-    
+  </footer>
+  <!-- 풋터 끝 -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+  crossorigin="anonymous">
+  </script>
 </body>
 </html>
