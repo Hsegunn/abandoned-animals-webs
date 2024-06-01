@@ -1,4 +1,3 @@
-
 /* 헤더 샘플 */
 .header {
   width: 100%;
@@ -9,26 +8,28 @@
   left: 0;
   right: 0;
 }
+
 .footer {
   width: 100%;
   height: 80px;
   background-color: #e4e4e4;
 }
-/* 헤더 샘플 끝 */
 
 /* FAQ 검색창 */
 .FAQ_Container {
   width: 70%;
-
   margin: 40px auto;
 }
 
 .search-container {
   position: relative;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   margin-bottom: 30px;
 }
+
 .search-container input[type="text"] {
+  width: 100%;
   padding: 10px 20px 10px 40px;
   border-radius: 10px;
 }
@@ -39,83 +40,87 @@
   transform: translateY(-50%);
   left: 18px;
 }
-/* FAQ 검색창 끝 */
+
 /* FAQ 상단 배너 */
-.Top-Banner{
+.Top-Banner {
   margin: auto;
-  width: 70%;
-  height: 400px;
+  width: 100%;
+  max-width: 70%;
+  height: auto;
   display: flex;
-  flex-wrap: wrap;
-
-}
-.TB-text{
-  flex: 0.3 0.7 auto;
-  padding-right: 60px;
-margin-top: 120px;
-padding-left: 60px;
-  }
-.TB-image{
-  /* display: flex;
-  justify-content: center; */
-  flex: 0 0 auto;
-  width: 60%; 
-  background-color: #1b6683;
-  overflow: hidden;
-  object-fit: cover;
-
-}
-.TB-text-btn{
-display: flex;
-justify-content: flex-start;
-
+  flex-direction: row;
+  align-items: center;
 }
 
-.FAQ-btn{
+.TB-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.TB-text h1 {
+  margin-bottom: 10px;
+}
+
+.TB-text-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.FAQ-btn {
   border-color: #5297AC;
-  background-color:#5297AC;
+  background-color: #5297AC;
   color: #fff;
-  margin-right: .5rem !important;
 }
-.FAQ-btn:hover{
+
+.FAQ-btn:hover {
   border-color: #5297AC;
   color: #fff;
   background-color: #325f6c;
 }
-.FAQ-btn:active{
+
+.FAQ-btn:active {
   color: #fff;
   background-color: #325f6c;
 }
 
-.Question-btn{
+.Question-btn {
   color: white;
   background-color: #FDC456;
 }
-.Question-btn:hover{
-  color: #fff;
-  background-color: #f5a300;
-}
-.Question-btn:active{
+
+.Question-btn:hover {
   color: #fff;
   background-color: #f5a300;
 }
 
-.TB-image{
+.Question-btn:active {
+  color: #fff;
+  background-color: #f5a300;
+}
+
+.TB-image {
+  flex: 2;
   border-radius: 10px;
-  background-image: url('/img/QnA_FAQ_banner.jpg'); /*배경 이미지 삽입 */
-background-image: no-repeat; /*배경 이미지 반복 안 함 */
-background-size: 100% 100%;
-
-margin-bottom: 50px;
+  background-color: #1b6683;
+  overflow: hidden;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  max-height: 400px;
 }
 
-/* FAQ 상단 배너 끝 */
+.TB-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /* 아코디언 버튼 부트스트랩 수정(우선순위 지정) */
 .accordion-button:focus {
   box-shadow: none !important;
   border-color: none !important;
 }
+
 .accordion-button:not(.collapsed) {
   color: #fff !important;
   background-color: #bdbdbd !important;
