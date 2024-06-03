@@ -1,0 +1,163 @@
+header{                
+    position:sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #FFF;
+    max-width: 70%;
+    margin: auto;
+}
+.logo{                         
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+/* 헤더 소개,입양하기,입양후기,문의제보,소식 란*/
+.nav-status{          
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-left: 22%;
+}
+
+.nav-status a{
+    text-decoration-line: none;
+}
+
+.nav{
+    display: flex; 
+    max-width: 100%;
+    margin: auto; 
+    margin-left: 0;
+    padding-top: 20px;
+    height: 70px;
+}
+
+/* 헤더 부분 글씨*/
+.nav_name{                            
+    font-size: 20px;
+    color:black;
+}
+
+main{
+    max-width: 70%;
+    margin: auto;
+}
+
+/* 헤더 이벤트 효과 / 색상 변경 필요*/
+.nav_name:hover{                    
+    padding-bottom: 7px;
+    border-bottom: 3px solid red;    
+}
+
+.img-banner{
+    width: 100%;
+    height: 600px;
+    background-color: #bb7171;
+    border-radius: 30px;
+    background-image: url('C-Main-topbanner.jpg');
+    margin-bottom: 70px;
+}
+
+/* 글씨, + 분리*/
+.sub-title-plus{        
+    display: flex; 
+    margin-bottom: 20px;
+}
+
+.plus{                  
+    display:flex; 
+    align-items: center; 
+    background-color: #FDC456; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    font-size: 50px; 
+    font-weight: bolder;
+    color: #FFF;
+    padding-left: 3px;
+    padding-bottom: 12px;
+}
+
+/*입양하기, 입양후기, 홍보영상 글씨*/
+.adopt{                 
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+/*입양 정보*/
+.impormation{           
+    display:flex;
+    max-width: 100%;
+}
+
+/*입양하기 동물 이름*/
+.name_size{                 
+    font-weight: bolder;
+    font-size:20px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+}
+
+/*입양하기 동물 품종*/
+.sub_name{                  
+    font-size: xx-small;
+    color: #AAAAAA;
+}
+
+/*입양 동물 나이*/
+.age{                       
+    margin-left: auto;
+    font-size: 15px;
+    color: #9B9B9B;
+    margin-top: 5px;
+}
+
+/*실선*/
+.solid{                     
+    height: 20px;
+    color: #9B9B9B;
+    border: 0.5px solid;
+    margin: 0 5px; 
+    margin-top: 7px;
+}
+
+/*성별*/
+.gender{                    
+    font-size: 15px;
+    color: #9B9B9B;
+    margin-top: 5px;
+}
+
+/*입양후기 이름*/
+.review_sub_name{           
+    font-size:20px;
+    font-weight: bolder;
+}
+
+/*후원하기 보조 설명*/
+.review_name_size{              
+    color: #9B9B9B;   
+}
+
+/*부트스트랩 사진란 밑 간격*/
+.col-md-3{                          
+    margin-bottom: 100px;
+}
+
+.ad{
+    width: 100%;
+    height: 600px;
+    background-color: #bb7171;
+    border-radius: 30px;
+    background-image: url('C-Main-op.jpg');
+    margin-bottom: 70px;
+}
+
+/* 풋터 수정 */
+footer{
+    background-color: #D9D9D9;
+    height: 160px;
+}
