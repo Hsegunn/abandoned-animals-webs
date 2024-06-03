@@ -1,0 +1,73 @@
+/* 컨테이너 크기수정 */
+.container {
+  max-width: 70%;
+  max-height: 70%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.form-container {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 70px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: bold;
+  width: 80px;
+  margin-right: 5px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  border-radius: 10px;
+  flex: 1;
+  margin-right: 5px;
+}
+
+/* 수정: !important 지정 */
+.btn-primary {
+  background-color: #FDC456 !important;
+  border-color: #FDC456  !important;
+}
+/* 수정: !important 지정 */
+.btn-primary:hover {
+  background-color: rgb(250, 177, 32)  !important;
+  border-color: rgb(250, 177, 32)  !important;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+/* 수정: !important 지정 */
+.btn_commit {
+  width: 100px;
+  border-radius: 12px  !important;
+  margin-right: 50px;
+}
+
+
+
+#birth::placeholder,
+#phone::placeholder,
+#email::placeholder {
+  color: rgb(201, 205, 211);
+  font-style: italic;
+}
+
+#name,#birth,#phone,#email,#content {
+  background-color: #f0f0f0;
+  border-radius: 0px;
+  border: 0;
+}
